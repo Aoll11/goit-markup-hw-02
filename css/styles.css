@@ -1,0 +1,66 @@
+:root{
+    /*fonts*/
+    --logo-font-family:'Raleway', sans-serif;
+    --main-font-family: 'Roboto', sans-serif;
+
+    /*colors*/
+    --main-dark-color: #2F303A;
+    --main-light-color:#E5E5E5;
+    --background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --border-color:#ECECEC;
+    --secondary-border-color: #EEEEEE;
+    --main-font-collor: #212121;
+    --secondary-font-collor: #757575;
+    --current-color: #2196F3;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--secondary-font-collor)
+
+}
+
+/*Common Styles*/
+
+.link {
+    text-decoration: none;
+    color: var(--main-font-collor);
+}
+
+.button {
+    border: none;
+    background-color: var(--secondary-background-color) ;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+}
+
+.list {
+    list-style: none;
+}
+
+.section {
+    background-color: var(--background-color);
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-font-collor);
+}
+
+/*Header*/
+.header {
+    color: var(--main-font-collor);
+}
+
+span.current{
+    color: var(--current-color);
+}
